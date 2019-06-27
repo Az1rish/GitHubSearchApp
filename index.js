@@ -24,7 +24,7 @@ function displayResults(responseJson) {
 
     for(let i = 0; i < responseJson.length; i++) {
         $('.results-list').append(
-            `<li><h2>${responseJson[i].full_name}</h2>
+            `<li><h2>${responseJson[i].name}</h2>
             <a href="${responseJson[i].html_url}" target="_blank"><p>${responseJson[i].html_url}</p></a>
             </li>`
         )};
