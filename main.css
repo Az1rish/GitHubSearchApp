@@ -5,8 +5,15 @@
 
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .hidden {
     display: none;
+}
+
+ul {
+    text-align: left;
+    width: 50%;
+    margin: auto;
 }
